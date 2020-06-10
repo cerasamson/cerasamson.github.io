@@ -1,5 +1,17 @@
 body
 {
 	font-family: cooper-black-std, serif;
-	color: lightskyblue;
+	background-color: #F3D1C2;
+	color: #A10000;
+	font-size: 48px;
+}
+
+h1
+{
+	font-size: 48px;
+}
+
+p
+{
+	font-size: 24px;
 }
