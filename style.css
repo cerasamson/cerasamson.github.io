@@ -1,17 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700,900&display=swap');
+
 body
 {
-	font-family: cooper-black-std, serif;
-	background-color: #F3D1C2;
+	font-family: 'Roboto';
+	background-color: #e2e2e2;
 	color: #A10000;
-	font-size: 48px;
 }
 
-h1
-{
+h1 {
+	border-right: solid 3px #A10000;
+	white-space: nowrap;
+	overflow: hidden;    
+	font-family: 'Roboto';
+	letter-spacing: 7px;
 	font-size: 48px;
-}
-
-p
-{
-	font-size: 24px;
-}
+	color: #A10000;
+  }
+  
+  h1 {
+	animation: animated-text 4s steps(29) 1s 1 normal both,
+			   animated-cursor 1s steps(29) infinite;
+  }
+    
+  @keyframes animated-text{
+	from{width: 0;}
+	to{width: 400px;}
+  }
+    
+  @keyframes animated-cursor{
+	from{border-right-color: #A10000;}
+	to{border-right-color: transparent;}
+  }
