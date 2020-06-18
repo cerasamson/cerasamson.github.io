@@ -1,20 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
 
 body
 {
 	font-family: 'Roboto';
-	background-color: #e2e2e2;
-	color: #A10000;
+	color: white;
+	background: linear-gradient(180deg, #FB8883 0%, #EEF4D2 100%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
 }
 
 h1 {
-	border-right: solid 3px #A10000;
+	border-right: solid 3px white;
 	white-space: nowrap;
 	overflow: hidden;    
 	font-family: 'Roboto';
 	letter-spacing: 7px;
 	font-size: 48px;
-	color: #A10000;
+	color: white;
   }
   
   h1 {
@@ -24,10 +27,25 @@ h1 {
     
   @keyframes animated-text{
 	from{width: 0;}
-	to{width: 400px;}
+	to{width: 430px;}
   }
     
   @keyframes animated-cursor{
-	from{border-right-color: #A10000;}
+	from{border-right-color: white;}
 	to{border-right-color: transparent;}
+  }
+
+  h2 {
+	  font-family: 'Roboto';
+	  font-size: 14px!important;
+	  color: white;
+	  letter-spacing: 5px;
+  }
+
+  .center {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -50px;
+	margin-left: -100px;
   }
