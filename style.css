@@ -44,8 +44,31 @@ h1 {
 
   .center {
 	position: fixed;
-	top: 50%;
+	top: 30%;
 	left: 50%;
 	margin-top: -50px;
 	margin-left: -100px;
   }
+
+  button {
+	background-color: transparent;
+	border: none;
+	outline: none;
+  }
+
+  .collapsible {
+	  background-color: transparent;
+	  border: none;
+	  outline: none;
+  }
+
+.content {
+	padding: 50px 0;
+	display: none;
+	overflow: hidden;
+	background-color: transparent;
+	font-family: 'Roboto';
+	font-size: 12px!important;
+	color: white;
+	letter-spacing: 5px;
+}
