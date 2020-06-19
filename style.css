@@ -41,6 +41,10 @@ h1 {
 	  color: white;
 	  letter-spacing: 5px;
   }
+  
+  h4 {
+	  font-size: 13px!important;
+  }
 
   .center {
 	position: fixed;
