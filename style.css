@@ -61,9 +61,20 @@ h1 {
   }
 
   .collapsible {
-	  background-color: transparent;
-	  border: none;
-	  outline: none;
+	background-color: transparent;
+	border: none;
+	outline: none;
+  }
+
+  .collapsible:after {
+	display:inline-block;
+	content: url("https://img.icons8.com/dusk/24/000000/plus-math.png");
+  }
+
+
+  .active:after {
+	display:inline-block;
+	content: url("https://img.icons8.com/dusk/24/000000/minus-math.png");
   }
 
 .content {
