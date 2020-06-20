@@ -27,7 +27,7 @@ h1 {
     
   @keyframes animated-text{
 	from{width: 0;}
-	to{width: 430px;}
+	to{width: 440px;}
   }
     
   @keyframes animated-cursor{
