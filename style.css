@@ -50,7 +50,7 @@ h1 {
 	position: fixed;
 	top: 30%;
 	left: 50%;
-	margin-top: 20px;
+	margin-top: -30px;
 	margin-left: -170px;
   }
 
@@ -78,12 +78,14 @@ h1 {
   }
 
 .content {
-	padding: 50px 0;
+	padding: 25px 0;
+	border-radius: 10px;
 	display: none;
 	overflow: hidden;
-	background-color: transparent;
+	background-color: transparent);
+	background-size: 150%;
 	font-family: 'Roboto';
 	font-size: 12px!important;
-	color: white;
-	letter-spacing: 5px;
+	color: purple;
+	letter-spacing: 1.4px;
 }
