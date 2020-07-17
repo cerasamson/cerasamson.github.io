@@ -87,4 +87,7 @@ h1 {
 	font-size: 12px!important;
 	color: #714674;
 	letter-spacing: 1.4px;
+	height: 300px;
+	width: 430px;  
+	border-width: 3px;
 }
