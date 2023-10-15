@@ -29,84 +29,6 @@ const headingStyles = {
   fontSize: "1.75rem",
   fontWeight: "bold"
 };
-const heading2Styles = {
-  marginTop: -10,
-  marginBottom: 35,
-  maxWidth: "45rem",
-  fontSize: "1.5rem",
-  fontWeight: "bold"
-};
-const headingAccentStyles = {
-  color: "#663399"
-};
-const paragraphStyles = {
-  marginBottom: 48,
-  color: "white"
-};
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4
-};
-const listStyles = {
-  marginBottom: 96,
-  paddingLeft: 0
-};
-const doclistStyles = {
-  paddingLeft: 0
-};
-const listItemStyles = {
-  fontWeight: 300,
-  fontSize: 24,
-  maxWidth: 560,
-  marginBottom: 30
-};
-const linkStyle = {
-  color: "#8954A8",
-  fontWeight: "bold",
-  fontSize: 16,
-  verticalAlign: "5%"
-};
-const docLinkStyle = {
-  ...linkStyle,
-  listStyleType: "none",
-  display: `inline-block`,
-  marginBottom: 24,
-  marginRight: 12
-};
-const descriptionStyle = {
-  color: "#232129",
-  fontSize: 14,
-  marginTop: 10,
-  marginBottom: 0,
-  lineHeight: 1.25
-};
-const docLinks = [{
-  text: "TypeScript Documentation",
-  url: "https://www.gatsbyjs.com/docs/how-to/custom-configuration/typescript/",
-  color: "#8954A8"
-}, {
-  text: "GraphQL Typegen Documentation",
-  url: "https://www.gatsbyjs.com/docs/how-to/local-development/graphql-typegen/",
-  color: "#8954A8"
-}];
-const badgeStyle = {
-  color: "#fff",
-  backgroundColor: "#088413",
-  border: "1px solid #088413",
-  fontSize: 11,
-  fontWeight: "bold",
-  letterSpacing: 1,
-  borderRadius: 4,
-  padding: "4px 6px",
-  display: "inline-block",
-  position: "relative",
-  top: -2,
-  marginLeft: 10,
-  lineHeight: 1
-};
 const IndexPage = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
     style: pageStyles
@@ -116,9 +38,9 @@ const IndexPage = () => {
     style: {
       fontSize: 12
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", null, "JAN-MAY 2023 "), " - IOS APPLICATION | REACT NATIVE, EXPO, GO "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", null, "SENIOR CAPSTONE ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     style: headingStyles
-  }, "VolunteerOne"), "Connecting volunteers to their communities ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+  }, "VolunteerOne"), "iOS app connecting volunteers to their communities ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     style: {
       fontSize: 10,
       color: "#701a75"
@@ -133,9 +55,9 @@ const IndexPage = () => {
     style: {
       fontSize: 12
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", null, "MAY-AUG 2022 "), " - VISUAL STUDIO "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", null, "SOFTWARE ENGINEER INTERNSHIP - MICROSOFT ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     style: headingStyles
-  }, "Blazor Empty Project Templates"), "Added in .NET 7 SDK ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+  }, "Blazor Empty Project Templates"), "Added in .NET 7 for Visual Studio ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     style: {
       fontSize: 10,
       color: "#701a75"
@@ -150,7 +72,7 @@ const IndexPage = () => {
     style: {
       fontSize: 12
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", null, "MAY-AUG 2021 "), " - VS CODE EXTENSION "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", null, "EXPLORE INTERNSHIP - MICROSOFT ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     style: headingStyles
   }, "Journey"), "Step-by-step learning experiences in Polyglot Notebooks ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     style: {
