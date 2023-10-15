@@ -8,6 +8,7 @@ const pageStyles = {
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
+
 const headingStyles = {
   marginTop: 0,
   marginBottom: 35,
@@ -26,7 +27,10 @@ const paragraphStyles = {
 }
 
 
+
+
 const IndexPage: React.FC<PageProps> = () => {
+  
   return (
     <main style={pageStyles}>
       <Layout>
@@ -35,12 +39,12 @@ const IndexPage: React.FC<PageProps> = () => {
       </h1>
       <p style={paragraphStyles}>
       <button class="bg-transparent hover:bg-fuchsia-900 text-fuchsia-900 font-semibold hover:text-white py-3 px-7 border border-fuchsia-900 hover:border-transparent rounded-full">
-      <AnchorLink to="/#connect">CONTACT</AnchorLink> 
+      <a href="/#connect">CONTACT</a> 
       </button>
       ___
       <a href="/about" class="text-white">
                 <button class="bg-gradient-to-r from-fuchsia-900 from-35% via-rose-400 via-100% hover:bg-blue-700 text-white font-bold py-3 px-7 rounded-full">
-                MORE ABOUT ME       →
+                MORE ABOUT ME
 
       </button>
       </a>
@@ -51,16 +55,22 @@ const IndexPage: React.FC<PageProps> = () => {
       </p>
 
       <h1 id="connect" style={footerStyles}>Let's connect:</h1>
-      <div style={{marginTop: 10}} class="flex space-x-8">
+
+      
+      
+      <a>Email: </a>
+      <a href="mailto:cerasamson@gmail.com"><u>cerasamson@gmail.com </u></a>
+      <div class="flex space-x-2">
       <a href="https://www.linkedin.com/in/cerasamson/">LinkedIn</a>
+      <a> + </a>
       <a href="https://github.com/cerasamson">GitHub</a>
-      <a href="mailto:cerasamson@gmail.com">Email</a>
       </div>
-      </Layout>
+            </Layout>
+
     </main>
   )
 }
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Home - Cera Samson</title>
+export const Head: HeadFC = () => <title>Cera Samson | Home</title>

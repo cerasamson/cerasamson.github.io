@@ -20,7 +20,7 @@ const config: GatsbyConfig = {
   }]
 };
 module.exports = {
-  pathPrefix: "/cerasamson.github.io",
+  pathPrefix: '/cerasamson',
 };
 
 export default config;

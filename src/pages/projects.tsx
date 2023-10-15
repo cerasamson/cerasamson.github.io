@@ -53,11 +53,13 @@ const IndexPage: React.FC<PageProps> = () => {
       <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
       </p>
 
-      <h1 id="about-connect" style={footerStyles}>Let's connect:</h1>
-      <div style={{marginTop: 10}} class="flex space-x-8">
-      <a href="https://www.linkedin.com/in/cerasamson/">LinkedIn</a>
-      <a href="https://github.com/cerasamson">GitHub</a>
-      <a href="mailto:cerasamson@gmail.com">Email</a>
+      <h1 id="about-connect" style={footerStyles}>Let's connect</h1>
+      <a>Email: </a>
+      <a href="mailto:cerasamson@gmail.com"><u>cerasamson@gmail.com </u></a>
+      <div class="flex space-x-2">
+        <a href="https://www.linkedin.com/in/cerasamson/">LinkedIn</a>
+        <a> + </a>
+        <a href="https://github.com/cerasamson">GitHub</a>
       </div>
 
       </Layout>
@@ -68,4 +70,4 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>About - Cera Samson</title>
+export const Head: HeadFC = () => <title>Cera Samson | Projects</title>
