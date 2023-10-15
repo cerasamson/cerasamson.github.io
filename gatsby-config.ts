@@ -1,9 +1,10 @@
 import type { GatsbyConfig } from "gatsby";
 
+
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `portfolio`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.cerasamson.github.io`
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
@@ -17,6 +18,9 @@ const config: GatsbyConfig = {
     },
     __key: "pages"
   }]
+};
+module.exports = {
+  pathPrefix: "/cerasamson.github.io",
 };
 
 export default config;
