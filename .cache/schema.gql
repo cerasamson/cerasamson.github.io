@@ -1,4 +1,4 @@
-### Type definitions saved at 2023-10-15T23:56:31.740Z ###
+### Type definitions saved at 2023-10-22T01:33:08.329Z ###
 
 enum RemoteFileFit {
   COVER
@@ -216,6 +216,8 @@ type File implements Node @dontInfer {
   ctime: Date! @dateformat
   birthtime: Date @deprecated(reason: "Use `birthTime` instead")
   birthtimeMs: Float @deprecated(reason: "Use `birthTime` instead")
+  blksize: Int
+  blocks: Int
 }
 
 type Directory implements Node @dontInfer {
@@ -252,21 +254,22 @@ type Directory implements Node @dontInfer {
   birthtimeMs: Float @deprecated(reason: "Use `birthTime` instead")
 }
 
-type Site implements Node @dontInfer {
+type Site implements Node @derivedTypes @dontInfer {
   buildTime: Date @dateformat
   siteMetadata: SiteSiteMetadata
   port: Int
   host: String
-  pathPrefix: String
+  graphqlTypegen: SiteGraphqlTypegen
   polyfill: Boolean
+  pathPrefix: String
   jsxRuntime: String
   trailingSlash: String
-  graphqlTypegen: Boolean
 }
 
 type SiteSiteMetadata {
   title: String
   description: String
+  siteUrl: String
 }
 
 type SiteFunction implements Node @dontInfer {
@@ -303,4 +306,15 @@ type SitePlugin implements Node @dontInfer {
 
 type SiteBuildMetadata implements Node @dontInfer {
   buildTime: Date @dateformat
+}
+
+type Mdx implements Node @dontInfer {
+  excerpt(pruneLength: Int = 140): String
+  tableOfContents(maxDepth: Int): JSON
+}
+
+type SiteGraphqlTypegen {
+  typesOutputPath: String
+  documentSearchPaths: [String]
+  generateOnBuild: Boolean
 }

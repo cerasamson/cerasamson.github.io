@@ -39,17 +39,17 @@ const linkStyle = {
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main style={pageStyles}>
-      <Layout>
+      <Layout   activeClassName="active">
       <h1 style={headingStyles}>Hello! I’m Cera, a recent grad, coffee lover, and advocate for inclusivity in tech.</h1>
       <h2 style={heading2Styles}>My interest in technology sprung from transforming thoughts into digital realities.</h2>
       <p style={{marginTop:-10, maxWidth:"45rem"}}>
-        I spent my childhood building games in Roblox and Minecraft, designing everything from storylines, player experience, and advertising.
+        I spent my childhood building games in Roblox and Minecraft, defining storylines and the player experience.
         These early endeavors taught me how to bring a product into fruition and ignited my passion for computers and design. 
       </p>
       <br></br>
       <p style={{maxWidth:"45rem"}}>
-      Inspired by these experiences, I pursued a B.S. in computer science at the University of Nevada, Las Vegas.
-      I also leveraged software engineering internships where I worked on tools for developers and students.
+      Inspired by these experiences, I pursued a B.S. in Computer Science at the University of Nevada, Las Vegas.
+      I also leveraged software engineering internships to work on tools for developers and students.
       </p>
       <br></br>
       <p style={{maxWidth:"45rem"}}>
@@ -61,13 +61,12 @@ const IndexPage: React.FC<PageProps> = () => {
       </p>
 
       <h1 id="about-connect" style={footerStyles}>Let's connect</h1>
+      <div class="flex space-x-4">
+        <a href="https://www.linkedin.com/in/cerasamson/"><u>LinkedIn↗</u></a>
+        <a href="https://github.com/cerasamson"><u>GitHub↗</u></a>
+      </div>
       <a>Email: </a>
       <a href="mailto:cerasamson@gmail.com"><u>cerasamson@gmail.com </u></a>
-      <div class="flex space-x-2">
-        <a href="https://www.linkedin.com/in/cerasamson/">LinkedIn</a>
-        <a> + </a>
-        <a href="https://github.com/cerasamson">GitHub</a>
-      </div>
 
       </Layout>
     </main>

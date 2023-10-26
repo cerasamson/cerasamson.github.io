@@ -1,7 +1,6 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
 import Layout from '../components/Layout';
-import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const pageStyles = {
   color: "#232129",
@@ -27,46 +26,38 @@ const paragraphStyles = {
 }
 
 
-
-
 const IndexPage: React.FC<PageProps> = () => {
-  
   return (
     <main style={pageStyles}>
-      <Layout>
-      <h1 style={headingStyles}>
-        <b>I'm Cera</b>, a <b>developer</b> and <b>recent computer science grad</b> based in Las Vegas, NV.
-      </h1>
-      <p style={paragraphStyles}>
-      <button class="bg-transparent hover:bg-fuchsia-900 text-fuchsia-900 font-semibold hover:text-white py-3 px-7 border border-fuchsia-900 hover:border-transparent rounded-full">
-      <a href="/#connect">CONTACT</a> 
-      </button>
-      ___
-      <a href="/about" class="text-white">
-                <button class="bg-gradient-to-r from-fuchsia-900 from-35% via-rose-400 via-100% hover:bg-blue-700 text-white font-bold py-3 px-7 rounded-full">
-                MORE ABOUT ME
+      <Layout activeClassName="active">
 
-      </button>
-      </a>
-      </p>
-      
-      <p style={{marginTop: 240}}>
-      <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
-      </p>
+        {/* Intro */}
+        <h1 style={headingStyles}>
+          <b>I'm Cera</b>, a <b>developer</b> and <b>recent computer science grad</b> based in Las Vegas, NV.
+        </h1>
+        
+        {/* Button */}
+        <p style={paragraphStyles}>
+          <button class="bg-transparent hover:bg-indigo-500 text-indigo-500
+          font-semibold hover:text-white py-3 px-7 border border-indigo-500
+          hover:border-transparent rounded-full">
+            <a href="/about" style = {{padding: '10px'}} > MORE ABOUT ME →</a>
+          </button>
+        </p>
 
-      <h1 id="connect" style={footerStyles}>Let's connect:</h1>
+        {/* Footer */}
+        <p style={{marginTop: 100}}>
+          <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+        </p>
 
-      
-      
-      <a>Email: </a>
-      <a href="mailto:cerasamson@gmail.com"><u>cerasamson@gmail.com </u></a>
-      <div class="flex space-x-2">
-      <a href="https://www.linkedin.com/in/cerasamson/">LinkedIn</a>
-      <a> + </a>
-      <a href="https://github.com/cerasamson">GitHub</a>
-      </div>
-            </Layout>
-
+        <h1 id="about-connect" style={footerStyles}>Let's connect</h1>
+        <div class="flex space-x-4">
+          <a href="https://www.linkedin.com/in/cerasamson/"><u>LinkedIn↗</u></a>
+          <a href="https://github.com/cerasamson"><u>GitHub↗</u></a>
+        </div>
+        <a>Email: </a>
+        <a href="mailto:cerasamson@gmail.com"><u>cerasamson@gmail.com </u></a>
+      </Layout>
     </main>
   )
 }

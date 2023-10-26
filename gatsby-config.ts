@@ -19,8 +19,5 @@ const config: GatsbyConfig = {
     __key: "pages"
   }]
 };
-module.exports = {
-  pathPrefix: '/cerasamson',
-};
 
 export default config;

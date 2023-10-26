@@ -6,3 +6,10 @@ html {
     --scroll-behavior: smooth!important;
     scroll-behavior: smooth!important;
 }
+
+@media (max-width: 768px) {
+    .container {
+      max-width: 100%;
+      padding: 10px;
+    }
+}
