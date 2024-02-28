@@ -62,7 +62,6 @@ const IndexPage: React.FC<PageProps> = () => {
           <a href="https://www.linkedin.com/in/cerasamson/"><u>LinkedIn↗</u></a>
           <a href="https://github.com/cerasamson"><u>GitHub↗</u></a>
         </div>
-        <a>Email: </a>
         <a href="mailto:cerasamson@gmail.com"><u>cerasamson@gmail.com </u></a>
 
       </Layout>
@@ -73,4 +72,4 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Cera Samson | Projects</title>
+export const Head: HeadFC = () => <title>Projects</title>

@@ -40,7 +40,7 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <main style={pageStyles}>
       <Layout   activeClassName="active">
-      <h1 style={headingStyles}>Hello! I’m Cera, a recent grad, coffee lover, and advocate for inclusivity in tech.</h1>
+      <h1 style={headingStyles}>Hello, I’m Cera!</h1>
       <h2 style={heading2Styles}>My interest in technology sprung from transforming thoughts into digital realities.</h2>
       <p style={{marginTop:-10, maxWidth:"45rem"}}>
         I spent my childhood building games in Roblox and Minecraft, defining storylines and the player experience.
@@ -61,12 +61,11 @@ const IndexPage: React.FC<PageProps> = () => {
       </p>
 
       <h1 id="about-connect" style={footerStyles}>Let's connect</h1>
-      <div class="flex space-x-4">
-        <a href="https://www.linkedin.com/in/cerasamson/"><u>LinkedIn↗</u></a>
-        <a href="https://github.com/cerasamson"><u>GitHub↗</u></a>
-      </div>
-      <a>Email: </a>
-      <a href="mailto:cerasamson@gmail.com"><u>cerasamson@gmail.com </u></a>
+        <div class="flex space-x-4">
+          <a href="https://www.linkedin.com/in/cerasamson/"><u>LinkedIn↗</u></a>
+          <a href="https://github.com/cerasamson"><u>GitHub↗</u></a>
+        </div>
+        <a href="mailto:cerasamson@gmail.com"><u>cerasamson@gmail.com </u></a>
 
       </Layout>
     </main>
@@ -76,4 +75,4 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Cera Samson | About</title>
+export const Head: HeadFC = () => <title>About</title>

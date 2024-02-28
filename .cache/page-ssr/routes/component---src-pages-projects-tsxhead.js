@@ -2054,7 +2054,7 @@ const IndexPage = () => {
     href: "https://www.linkedin.com/in/cerasamson/"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("u", null, "LinkedIn\u2197")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "https://github.com/cerasamson"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("u", null, "GitHub\u2197"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", null, "Email: "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("u", null, "GitHub\u2197"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "mailto:cerasamson@gmail.com"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("u", null, "cerasamson@gmail.com "))));
 };
@@ -2083,13 +2083,7 @@ const navStyles = {
   fontSize: "1.3rem",
   fontWeight: "bold"
 };
-const activeLinkStyle = {
-  color: "#6366f1",
-  fontSize: "1.3rem",
-  fontWeight: "bold"
-};
 const Layout = ({
-  location,
   children
 }) => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {

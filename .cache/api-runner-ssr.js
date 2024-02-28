@@ -1,6 +1,6 @@
 var plugins = [{
       name: 'partytown',
-      plugin: require('/Users/cera/Desktop/cerasamson.github.io/node_modules/gatsby/dist/internal-plugins/partytown/gatsby-ssr.js'),
+      plugin: require('/Users/cera/Desktop/projects/cerasamson.github.io/node_modules/gatsby/dist/internal-plugins/partytown/gatsby-ssr.js'),
       options: {"plugins":[]},
     }]
 /* global plugins */

@@ -2009,7 +2009,7 @@ const IndexPage = () => {
     activeClassName: "active"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     style: headingStyles
-  }, "Hello! I\u2019m Cera, a recent grad, coffee lover, and advocate for inclusivity in tech."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+  }, "Hello! I\u2019m Cera."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
     style: heading2Styles
   }, "My interest in technology sprung from transforming thoughts into digital realities."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     style: {
@@ -2039,7 +2039,7 @@ const IndexPage = () => {
     href: "https://www.linkedin.com/in/cerasamson/"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("u", null, "LinkedIn\u2197")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "https://github.com/cerasamson"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("u", null, "GitHub\u2197"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", null, "Email: "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("u", null, "GitHub\u2197"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "mailto:cerasamson@gmail.com"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("u", null, "cerasamson@gmail.com "))));
 };
@@ -2068,13 +2068,7 @@ const navStyles = {
   fontSize: "1.3rem",
   fontWeight: "bold"
 };
-const activeLinkStyle = {
-  color: "#6366f1",
-  fontSize: "1.3rem",
-  fontWeight: "bold"
-};
 const Layout = ({
-  location,
   children
 }) => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {

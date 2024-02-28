@@ -1981,7 +1981,7 @@ const pageStyles = {
 const headingStyles = {
   marginTop: 0,
   marginBottom: 35,
-  maxWidth: "65rem",
+  maxWidth: "56rem",
   fontSize: "4rem"
 };
 const footerStyles = {
@@ -1999,7 +1999,7 @@ const IndexPage = () => {
     activeClassName: "active"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     style: headingStyles
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("b", null, "I'm Cera"), ", a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("b", null, "developer"), " and ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("b", null, "recent computer science grad"), " based in Las Vegas, NV."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("b", null, "I'm Cera"), ", a ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("b", null, "software developer"), " based in Las Vegas."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     style: paragraphStyles
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
     class: "bg-transparent hover:bg-indigo-500 text-indigo-500 font-semibold hover:text-white py-3 px-7 border border-indigo-500 hover:border-transparent rounded-full"
@@ -2023,7 +2023,7 @@ const IndexPage = () => {
     href: "https://www.linkedin.com/in/cerasamson/"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("u", null, "LinkedIn\u2197")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "https://github.com/cerasamson"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("u", null, "GitHub\u2197"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", null, "Email: "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("u", null, "GitHub\u2197"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "mailto:cerasamson@gmail.com"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("u", null, "cerasamson@gmail.com "))));
 };
@@ -2052,13 +2052,7 @@ const navStyles = {
   fontSize: "1.3rem",
   fontWeight: "bold"
 };
-const activeLinkStyle = {
-  color: "#6366f1",
-  fontSize: "1.3rem",
-  fontWeight: "bold"
-};
 const Layout = ({
-  location,
   children
 }) => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {

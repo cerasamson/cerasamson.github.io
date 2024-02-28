@@ -11,7 +11,7 @@ const pageStyles = {
 const headingStyles = {
   marginTop: 0,
   marginBottom: 35,
-  maxWidth: "65rem",
+  maxWidth: "56rem",
   fontSize: "4rem",
 }
 
@@ -33,7 +33,7 @@ const IndexPage: React.FC<PageProps> = () => {
 
         {/* Intro */}
         <h1 style={headingStyles}>
-          <b>I'm Cera</b>, a <b>developer</b> and <b>recent computer science grad</b> based in Las Vegas, NV.
+          <b>I'm Cera</b>, a <b>software developer</b> based in Las Vegas.
         </h1>
         
         {/* Button */}
@@ -55,7 +55,6 @@ const IndexPage: React.FC<PageProps> = () => {
           <a href="https://www.linkedin.com/in/cerasamson/"><u>LinkedIn↗</u></a>
           <a href="https://github.com/cerasamson"><u>GitHub↗</u></a>
         </div>
-        <a>Email: </a>
         <a href="mailto:cerasamson@gmail.com"><u>cerasamson@gmail.com </u></a>
       </Layout>
     </main>
@@ -64,4 +63,4 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Cera Samson | Home</title>
+export const Head: HeadFC = () => <title>Cera Samson</title>
